@@ -109,3 +109,7 @@ func (s *PostgresStore) GetAccounts() ([]*Account, error) {
 func (s *PostgresStore) GetAccountByID(id int) (*Account, error) {
 	return nil, nil
 }
+
+func scanIntoAccount(rows *sql.Rows) (*Account, error) {
+	return nil, nil
+}
